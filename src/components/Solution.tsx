@@ -11,7 +11,7 @@ export default function Solution() {
               Páginas simples que sí convierten
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-             Diseño páginas enfocadas en un solo objetivo: que los pacientes te escriban directamente por WhatsApp.
+             Diseño de páginas enfocadas en un solo objetivo: que los pacientes te escriban directamente por WhatsApp.
             </p>
 
            <div className="space-y-4">

@@ -16,7 +16,7 @@ export default function Hero({ onWhatsAppClick }: HeroProps) {
 </h1>
 
 <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-  Creo páginas web para médicos enfocadas en generar consultas reales por WhatsApp
+  Creación de páginas web para médicos enfocadas en generar consultas reales por WhatsApp
 </p>
 
 <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-gray-500 mb-8">
