@@ -4,23 +4,23 @@ export default function Services() {
   const services = [
   {
     icon: Layout,
-    title: 'Diseño de landing page',
-    description: 'Página diseñada según tu especialidad para atraer pacientes y facilitar el contacto'
+    title: 'Una página pensada para atraer pacientes',
+    description: 'Diseñada específicamente para tu especialidad y enfocada en generar consultas reales.'
   },
   {
     icon: MessageCircle,
-    title: 'Integración con WhatsApp',
-    description: 'Botón directo para que los pacientes te escriban fácilmente desde la página'
+    title: 'Contacto directo en un solo clic',
+    description: 'El paciente puede escribirte fácilmente sin formularios ni pasos innecesarios.'
   },
   {
     icon: Search,
-    title: 'SEO básico',
-    description: 'Optimización para que te encuentren en Google cuando buscan tus servicios'
+    title: 'Te encuentran cuando te buscan',
+    description: 'Optimizada para aparecer en Google cuando alguien busca tu servicio.'
   },
   {
     icon: Zap,
-    title: 'Página rápida y responsive',
-    description: 'Carga rápida y diseño adaptado a celulares, donde la mayoría de pacientes te buscan'
+    title: 'Funciona perfecto en cualquier dispositivo',
+    description: 'Carga rápido y se adapta a celulares, donde la mayoría de pacientes te buscan.'
   }
 ];
 
@@ -29,10 +29,10 @@ export default function Services() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
   <h2 className="text-3xl md:text-4xl font-bold mb-4">
-   Todo lo que necesitas para empezar a recibir pacientes desde internet
+   Todo lo que necesitas para empezar a recibir pacientes
   </h2>
   <p className="text-lg text-blue-100 max-w-2xl mx-auto">
-    Una solución completa para tener presencia profesional en internet y recibir más consultas
+    Te dejo todo listo para que los pacientes te encuentren y te escriban sin complicaciones.
   </p>
 </div>
 

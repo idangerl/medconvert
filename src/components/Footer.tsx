@@ -24,12 +24,12 @@ export default function Footer() {
   </div>
 </div>
         <p className="text-gray-400">
-          Páginas web para médicos enfocadas en conseguir más pacientes.
+          Ayuda a médicos a conseguir pacientes a través de una página web enfocada en convertir.
         </p>
       </div>
 
       <div>
-        <h3 className="font-semibold text-lg mb-4">Servicios</h3>
+        <h3 className="font-semibold text-lg mb-4">Cómo funciona</h3>
         <ul className="space-y-2 text-gray-400">
           <li>Diseño de landing page</li>
           <li>Integración con WhatsApp</li>
