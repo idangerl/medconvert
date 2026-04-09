@@ -8,7 +8,7 @@ export default function Solution() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-blue-500 mb-6">
-              Una página diseñada para conseguirte pacientes
+              Obten una página diseñada para conseguirte pacientes
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               Cada elemento está pensado para que quien visite tu página termine

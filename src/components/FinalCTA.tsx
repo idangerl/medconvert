@@ -12,7 +12,7 @@ export default function FinalCTA({ onWhatsAppClick }: FinalCTAProps) {
       Empieza a recibir pacientes en tu consulta
     </h2>
     <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-      Te dejo todo listo para que personas interesadas te encuentren y te escriban directamente.
+      Te dejamos todo listo para que personas interesadas te encuentren y te escriban directamente.
     </p>
 
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">

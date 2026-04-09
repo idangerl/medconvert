@@ -12,11 +12,11 @@ export default function Hero({ onWhatsAppClick }: HeroProps) {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 leading-tight mb-6">
-              Haz que más pacientes te escriban por WhatsApp
+              Consigue pacientes diariamente para agendar en tu consulta
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-              Te ayudo a conseguir pacientes con una página web enfocada en generar consultas reales
+              Creamos una página optimizada + estrategia para que pacientes reales te contacten todos los días
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-gray-500 mb-8">
@@ -34,7 +34,7 @@ export default function Hero({ onWhatsAppClick }: HeroProps) {
               className="bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-4 rounded-lg text-lg flex items-center gap-3 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
             >
               <MessageCircle className="w-6 h-6" />
-              Quiero más pacientes
+              Consigue más pacientes ahora
             </button>
           </div>
 

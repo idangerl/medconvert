@@ -33,8 +33,8 @@ export default function Problem() {
         <div className="grid md:grid-cols-3 gap-8">
           {problems.map((problem, index) => (
             <div key={index} className="text-center p-6">
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-100 rounded-full mb-4">
-                <problem.icon className="w-8 h-8 text-blue-500" />
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-gray-100 rounded-full mb-4">
+                <problem.icon className="w-8 h-8 text-red-500" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 {problem.title}
