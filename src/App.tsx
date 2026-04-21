@@ -2,10 +2,10 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Problem from "./components/Problem";
 import Solution from "./components/Solution";
-import Benefits from "./components/Benefits";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import FinalCTA from "./components/FinalCTA";
+import ComparisonSection from "./components/ComparisonSection";
 import Footer from "./components/Footer";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
@@ -24,9 +24,7 @@ function App() {
       <Hero onWhatsAppClick={handleWhatsAppClick} />
       <Problem />
       <Solution />
-      <div id="benefits">
-        <Benefits />
-      </div>
+      <ComparisonSection />
       <div id="services">
         <Services />
       </div>
