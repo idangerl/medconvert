@@ -9,25 +9,25 @@ export default function Services() {
   const services = [
     {
       icon: Stethoscope,
-      title: "Analizamos tu consulta",
+      title: "Diagnóstico de Especialidad",
       description:
         "Entendemos tu especialidad, ubicación y cómo atraer pacientes en tu ciudad.",
     },
     {
       icon: LayoutTemplate,
-      title: "Creamos tu página optimizada",
+      title: "Desarrollo e Ingeniería",
       description:
         "Diseñamos una página enfocada en que los pacientes te escriban fácilmente por WhatsApp.",
     },
     {
       icon: Search,
-      title: "Te encuentran cuando te buscan",
+      title: "Activación de SEO Local",
       description:
-        "Optimizamos tu presencia para que aparezcas cuando alguien necesita tu servicio.",
+        "Optimizamos tu presencia para que aparezcas en las busquedas de Google cuando alguien necesita tu servicio.",
     },
     {
       icon: Users,
-      title: "Empiezas a recibir pacientes",
+      title: "Consultas en Automático",
       description:
         "Personas interesadas llegan a tu página y te escriben para agendar una consulta.",
     },
@@ -39,11 +39,10 @@ export default function Services() {
         {/* HEADER */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Cómo empezar a recibir pacientes en tu consulta
+          Tu camino hacia un consultorio lleno en 4 simples pasos
           </h2>
           <p className="text-lg text-blue-100 max-w-2xl mx-auto">
-            Un proceso simple que te permite atraer pacientes y convertirlos en
-            consultas reales en pocos días.
+          Nosotros nos encargamos de toda la complejidad técnica y estratégica. Tu único trabajo será responder los mensajes y atender a tus nuevos pacientes.
           </p>
         </div>
 

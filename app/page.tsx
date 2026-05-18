@@ -1,24 +1,26 @@
 "use client";
 
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Problem from "@/components/Problem";
-import Solution from "@/components/Solution";
-import Services from "@/components/Services";
-import Portfolio from "@/components/Portfolio";
-import FinalCTA from "@/components/FinalCTA";
-import ComparisonSection from "@/components/ComparisonSection";
-import Footer from "@/components/Footer";
-import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import Header from "@/src/components/Header";
+import Hero from "@/src/components/Hero";
+import Problem from "@/src/components/Problem";
+import Solution from "@/src/components/Solution";
+import Services from "@/src/components/Services";
+import Portfolio from "@/src/components/Portfolio";
+import FinalCTA from "@/src/components/FinalCTA";
+import ComparisonSection from "@/src/components/ComparisonSection";
+import Footer from "@/src/components/Footer";
+import FloatingWhatsApp from "@/src/components/FloatingWhatsApp";
 
 export default function Home() {
   const handleWhatsAppClick = () => {
-    const phoneNumber = "+59169894933";
+    const phoneNumber = "+51969894933";
     const message = encodeURIComponent(
-      "Hola, quiero empezar a recibir más pacientes con una página web. ¿Me puedes ayudar?",
+      "Hola, quiero empezar a recibir más pacientes con una página web. ¿Me puedes ayudar?"
     );
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
   };
+
+  // ... resto de tu código de la función Home
 
   return (
     <div className="min-h-screen bg-white">

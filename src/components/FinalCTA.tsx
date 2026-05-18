@@ -12,7 +12,7 @@ export default function FinalCTA({ onWhatsAppClick }: FinalCTAProps) {
       Empieza a recibir pacientes en tu consulta
     </h2>
     <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-      Te dejamos todo listo para que personas interesadas te encuentren y te escriban directamente.
+    No dejes tu crecimiento en manos de la suerte o de redes sociales que no dan resultados. Activa hoy tu sistema MedConvert y empieza a recibir consultas de pacientes reales en tu ciudad.
     </p>
 
     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">

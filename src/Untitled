@@ -1,0 +1,8 @@
+# 1. Borramos el Footer viejo y defectuoso que está dentro de 'src'
+Remove-Item src\components\Footer.tsx -Force
+
+# 2. Movemos el Footer bueno que editaste (el de la raíz) adentro de 'src' para que reemplace todo de forma correcta
+Move-Item components\Footer.tsx src\components\ -Force
+
+# 3. Opcional: Si te quedó la carpeta 'components' de la raíz vacía, bórrala para que no estorbe
+Remove-Item components -Force -ErrorAction SilentlyContinue

@@ -1,5 +1,4 @@
 import { CheckCircle, Zap, Target } from "lucide-react";
-import solutionImage from "../assets/solution-image.png";
 
 export default function Solution() {
   return (
@@ -8,11 +7,10 @@ export default function Solution() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-blue-500 mb-6">
-              Obten una página diseñada para conseguirte pacientes
+            Tu consultorio médico abierto 24/7 para recibir nuevos pacientes
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Cada elemento está pensado para que quien visite tu página termine
-              escribiéndote.
+            No diseñamos páginas institucionales aburridas. Creamos una estructura optimizada que guían al paciente a tomar la decisión de agendar hoy mismo.
             </p>
 
             <div className="space-y-4">
@@ -37,7 +35,7 @@ export default function Solution() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-1">
-                    Optimizada para celulares
+                  Velocidad Ultra-Rápida Móvil
                   </h3>
                   <p className="text-gray-600">
                     La mayoría de pacientes te buscarán desde su teléfono, y
@@ -65,8 +63,8 @@ export default function Solution() {
 
           <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300">
             <div className="mb-6 flex justify-center">
-              <img
-                src={solutionImage}
+            <img
+                src="images/solution-image.png"
                 alt="Sistema optimizado para conseguir pacientes"
                 className="w-full max-w-xs md:max-w-sm object-contain transition-transform duration-500 hover:scale-105 bg-transparent"
               />

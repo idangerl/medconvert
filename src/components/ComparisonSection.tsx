@@ -42,11 +42,10 @@ export default function ComparisonSection() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-500 leading-tight mb-4">
-            ¿Por qué algunos médicos reciben{' '}
-            <span className="text-green-500">pacientes</span> y otros no?
+          ¿Por qué algunos consultorios están siempre llenos y otros pasan días sin recibir llamadas?
           </h2>
           <p className="text-gray-500 text-base md:text-lg max-w-xl mx-auto leading-relaxed">
-            La diferencia está en cómo te encuentran y cómo pueden contactarte
+          No se trata de ser el mejor médico de tu ciudad, sino de ser el que aparece primero cuando un paciente tiene una urgencia.
           </p>
         </div>
 

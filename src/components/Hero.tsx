@@ -1,4 +1,3 @@
-import heroImage from "../assets/hero-image.png";
 import { MessageCircle } from "lucide-react";
 
 interface HeroProps {
@@ -7,16 +6,16 @@ interface HeroProps {
 
 export default function Hero({ onWhatsAppClick }: HeroProps) {
   return (
-    <section className="bg-gradient-to-br from-blue-50 to-white py-10  px-4">
+    <section className="bg-gradient-to-br from-blue-50 to-white py-10 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500 leading-tight mb-6">
-              Consigue pacientes diariamente para agendar en tu consulta
+            <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-blue-500 leading-tight mb-6">
+            Consigue pacientes diariamente en tu consulta
             </h1>
 
             <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-              Creamos una página optimizada + estrategia para que pacientes reales te contacten todos los días
+              Creamos una página optimizada con estrategia para que pacientes te contacten todos los días directamente a tu WhatsApp.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-gray-500 mb-8">
@@ -39,28 +38,28 @@ export default function Hero({ onWhatsAppClick }: HeroProps) {
           </div>
 
           <div className="relative flex justify-center items-center overflow-visible transition-transform duration-500 hover:scale-105">
-  <img
-    src={heroImage}
-    alt="Página web médica optimizada para conseguir pacientes"
-    className="
-      w-full 
-      md:w-[150%] 
-      md:max-w-none 
-      md:-mr-20 
-      object-contain 
-      md:translate-x-10
-    "
-  />
+            <img
+              src="images/hero-image.png"
+              alt="Página web médica optimizada para conseguir pacientes"
+              className="
+                w-full 
+                md:w-[150%] 
+                md:max-w-none 
+                md:-mr-20 
+                object-contain 
+                md:translate-x-10
+              "
+            />
 
-  {/* Difuminado inferior */}
-  <div className="
-    absolute bottom-0 left-0 
-    w-full md:w-[150%] 
-    h-32 
-    bg-gradient-to-t from-blue-50 to-transparent 
-    pointer-events-none
-  "></div>
-</div>
+            {/* Difuminado inferior */}
+            <div className="
+              absolute bottom-0 left-0 
+              w-full md:w-[150%] 
+              h-32 
+              bg-gradient-to-t from-blue-50 to-transparent 
+              pointer-events-none
+            "></div>
+          </div>
         </div>
       </div>
     </section>

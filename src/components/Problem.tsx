@@ -5,7 +5,7 @@ export default function Problem() {
   {
     icon: TrendingDown,
     title: 'No tienes una forma clara de captar pacientes',
-    description: 'Sin una página optimizada, dependes solo de recomendaciones o redes sociales.'
+    description: 'Sin una página optimizada, dependes solo de recomendaciones inestables.'
   },
   {
     icon: Users,

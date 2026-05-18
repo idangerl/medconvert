@@ -6,15 +6,12 @@ export default function Portfolio() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-500 mb-4">
-            Así podría verse la página de tu consulta
+          Diseños de alta conversión creados para especialistas en Bolivia
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Diseños simples, claros y enfocados en lograr lo más importante: que
-            los pacientes te escriban.
+          Explora los prototipos de nuestro ecosistema digital. Estructuras limpias, veloces y validadas que elevan el prestigio de tu consultorio médico mientras facilitan el agendamiento de citas.
           </p>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Ejemplos reales de páginas diseñadas para consultas como la tuya
-          </p>
+         
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -30,8 +27,7 @@ export default function Portfolio() {
             </div>
             <div className="p-6">
               <p className="text-gray-600 mb-4">
-                Todo está diseñado para que quien visite la página termine
-                escribiendo para agendar una consulta.
+              Estructura enfocada en mostrar casos de antes/después, galería de instalaciones y un asistente directo de WhatsApp para coordinar evaluaciones de ortodoncia e implantes en segundos.
               </p>
               <div className="flex items-center gap-2 text-blue-600 font-semibold">
                 <span>Ver ejemplo</span>
@@ -54,8 +50,7 @@ export default function Portfolio() {
             </div>
             <div className="p-6">
               <p className="text-gray-600 mb-4">
-                Un diseño claro y cercano que facilita que el paciente dé el
-                paso y te escriba.
+              Diseño minimalista que transmite paz, confidencialidad y empatía profesional. Optimizado para romper la fricción inicial y permitir que el paciente agende su primera sesión con total privacidad.
               </p>
               <div className="flex items-center gap-2 text-blue-600 font-semibold">
                 <span>Ver ejemplo</span>
