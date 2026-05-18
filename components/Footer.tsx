@@ -1,3 +1,4 @@
+import Image from 'next/image';
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -7,11 +8,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img 
-                src="images/logo.png" 
-                alt="MedConvert logo"
-                className="w-20 h-20 object-contain"
-              />
+            <Image 
+  src="/images/logo.png" // Recuerda ponerle el slash '/' adelante si está en la carpeta public
+  alt="MedConvert logo" 
+  width={80}   // <-- Agrega esto (en píxeles, sin 'px')
+  height={80}  // <-- Agrega esto (en píxeles, sin 'px')
+  className="w-20 h-20 object-contain"
+/>
               <div className="flex flex-col leading-tight">
                 <span className="text-lg font-bold">
                   MedConvert
