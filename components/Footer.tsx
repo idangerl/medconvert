@@ -27,7 +27,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-400">
-            MedConvert  |  Crecimiento Digital para Especialistas de la Salud en Bolivia. Creamos sistemas de alta conversión y SEO local que conectan a pacientes urgentes con tu consultorio.
+            MedConvert | Crecimiento Digital para Especialistas de la Salud en Bolivia. Creamos sistemas de alta conversión y SEO local que conectan a pacientes urgentes con tu consultorio.
             </p>
           </div>
 
