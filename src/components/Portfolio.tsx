@@ -27,10 +27,9 @@ export default function Portfolio() {
             </div>
             <div className="p-6">
               <p className="text-gray-600 mb-4">
-              Estructura enfocada en mostrar casos de antes/después, galería de instalaciones y un asistente directo de WhatsApp para coordinar evaluaciones de ortodoncia e implantes en segundos.
-              </p>
+Landing page premium para clínicas dentales, diseñada para transmitir confianza, destacar los servicios de la clínica y convertir visitantes en nuevos pacientes.              </p>
               <div className="flex items-center gap-2 text-blue-600 font-semibold">
-                <span>Ver ejemplo</span>
+                <a href="https://dental-clinic-c6yk.vercel.app" target="blank">Ver ejemplo</a>
                 <ExternalLink className="w-4 h-4" />
               </div>
             </div>
