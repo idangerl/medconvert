@@ -1,4 +1,5 @@
 import { X, Check, ArrowRight } from 'lucide-react';
+import { WhatsAppConsultoriosLink } from "@/lib/site-data";
 
 const negativeItems = [
   'Depende solo de recomendaciones',
@@ -94,10 +95,10 @@ export default function ComparisonSection() {
         </div>
 
         <div className="flex justify-center">
-          <button className="group inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold text-sm px-7 py-3.5 rounded-full shadow-md hover:shadow-lg transition-all duration-200 active:scale-95">
+          <a href={WhatsAppConsultoriosLink} target='blank' rel="noopener noreferrer" className="group inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold text-sm px-7 py-3.5 rounded-full shadow-md hover:shadow-lg transition-all duration-200 active:scale-95">
             Quiero empezar a recibir pacientes
             <ArrowRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-1" />
-          </button>
+          </a>
         </div>
       </div>
     </section>

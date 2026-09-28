@@ -1,0 +1,2 @@
+export const WhatsAppConsultoriosLink =
+  'https://wa.me/59169894933?text=Hola%2C%20vi%20su%20p%C3%A1gina%20y%20me%20interesa%20crear%20una%20p%C3%A1gina%20web%20para%20mi%20consultorio.%20Quisiera%20recibir%20informaci%C3%B3n%20sobre%20los%20dise%C3%B1os%2C%20funciones%20y%20precios.';

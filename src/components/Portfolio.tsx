@@ -52,7 +52,7 @@ Landing page premium para clínicas dentales, diseñada para transmitir confianz
               Diseño minimalista que transmite paz, confidencialidad y empatía profesional. Optimizado para romper la fricción inicial y permitir que el paciente agende su primera sesión con total privacidad.
               </p>
               <div className="flex items-center gap-2 text-blue-600 font-semibold">
-                <span>Ver ejemplo</span>
+                <a href="https://demo-consultorio-psicologico.vercel.app" target="blank">Ver ejemplo</a>
                 <ExternalLink className="w-4 h-4" />
               </div>
             </div>

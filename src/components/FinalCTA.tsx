@@ -1,5 +1,5 @@
 import { MessageCircle, CheckCircle } from 'lucide-react';
-
+import { WhatsAppConsultoriosLink } from '@/lib/site-data';
 interface FinalCTAProps {
   onWhatsAppClick: () => void;
 }
@@ -30,13 +30,15 @@ export default function FinalCTA({ onWhatsAppClick }: FinalCTAProps) {
       </div>
     </div>
 
-    <button
-      onClick={onWhatsAppClick}
-      className="bg-green-500 hover:bg-green-600 text-white font-semibold px-10 py-5 rounded-lg text-xl flex items-center gap-3 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 mx-auto"
-    >
-      <MessageCircle className="w-7 h-7" />
-      Quiero empezar a recibir pacientes
-    </button>
+   <a
+  href={WhatsAppConsultoriosLink}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-green-500 hover:bg-green-600 text-white font-semibold px-10 py-5 rounded-lg text-xl flex items-center justify-center gap-3 transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:scale-105 mx-auto"
+>
+  <MessageCircle className="w-7 h-7" />
+  Quiero empezar a recibir pacientes
+</a>
 
     <p className="text-gray-500 mt-6">
       Te respondo personalmente en menos de 24 horas
