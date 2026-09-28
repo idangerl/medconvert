@@ -89,9 +89,7 @@ export default function Services() {
 
         {/* FOOTER */}
         <div className="text-center mt-10">
-          <p className="text-xl md:text-2xl font-bold">
-            En menos de 7 días puedes empezar a ver resultados
-          </p>
+          
           <p className="text-lg text-blue-100 max-w-2xl mx-auto mt-2">
             Nos encargamos de todo el proceso. Tú solo te enfocas en atender a tus pacientes.
           </p>
